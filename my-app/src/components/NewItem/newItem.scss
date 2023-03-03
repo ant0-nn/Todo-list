@@ -1,0 +1,54 @@
+.new-item {
+    padding: 20px 35px;
+    border-bottom: 1px solid #808080;
+    &__btn-add {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+    }
+  }
+  
+  .form {
+    padding: 20px 0;
+    border-bottom: 1px solid #808080;
+  }
+  
+  .arrow {
+    position: relative;
+    margin-left: 40px;
+  }
+  
+  .block {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forms {
+    margin-left: 150px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    width: 500px;
+    padding: 10px 0;
+    outline: none;
+  }
+  
+  .left, .right {
+    position: absolute;
+    display: inline-flex;
+    width: 17.4px;
+    height: 0;
+  }
+  
+  .left {
+    border: 2px solid #808080;
+    transform: rotate(45deg);
+  
+  }
+  
+  .right {
+    border: 2px solid #808080;
+    transform: rotate(135deg);
+    left: 12px;
+  }

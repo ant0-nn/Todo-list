@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Jacques+Francois+Shadow&display=swap');
+
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+
+body {
+  background: #0E0E0E;
+}
+
+.container {
+  width: 896px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  border: 2px solid #878585;
+  background: none;
+  border-radius: 10px;
+}

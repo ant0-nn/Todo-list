@@ -1,0 +1,11 @@
+.filter {
+    display: flex;
+    cursor: pointer;
+    margin-left: 170px;
+    &__item {
+      margin-right: 34px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }

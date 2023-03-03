@@ -1,0 +1,12 @@
+.information-panel {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    border-top: 1px solid #808080;
+    &__numbers {
+      margin-left: 40px;
+    }
+    &__clear-completed {
+      margin-left: 200px;
+    }
+  }
