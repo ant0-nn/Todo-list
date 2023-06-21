@@ -1,0 +1,19 @@
+@import "./variable.scss";
+
+.form-add-task {
+    display: flex;
+    align-items: center;
+    &__line {
+        margin-left: 40px;
+        color: $grey-color;
+        font-size: 25px;
+    }
+    &__input {
+        padding: 30px;
+        background: none;
+        border: none;
+        font-size: 25px;
+        outline: none;
+        color: $white-color;
+    }
+}

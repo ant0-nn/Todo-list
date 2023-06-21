@@ -1,0 +1,19 @@
+@import "./variable.scss";
+
+.filter {
+    margin: 23px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__btn {
+        background: none;
+        border: none;
+        padding: 10px 12px;
+        color: $grey-color;
+        margin-right: 45px;
+        cursor: pointer;
+        &.active {
+            border: 2px solid $grey-color;
+        }
+    }
+}

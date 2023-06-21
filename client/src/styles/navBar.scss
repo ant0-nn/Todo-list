@@ -1,0 +1,14 @@
+@import "./variable.scss";
+
+.nav-bar {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__sign {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

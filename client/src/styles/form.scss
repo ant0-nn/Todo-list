@@ -1,0 +1,42 @@
+@import "./variable.scss";
+
+.form {
+    border: 1px solid $grey-color;
+    border-radius: 10px;
+    width: 600px;
+    margin: 100px auto;
+    &__title {
+        margin-top: 30px;
+        color: $white-color;
+        text-align: center;
+        font-size: 40px;
+    }
+    &__label {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        color: $white-color;
+    }
+    &__input {
+        color: $white-color;
+        margin-top: 10px;
+        padding: 15px;
+        outline: none;
+        background: none;
+        border-width: 2px 0px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: $grey-color;
+        filter: drop-shadow(0px 0px 25px $grey-color);
+    }
+    &__submit {
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        cursor: pointer;
+        color: $white-color;;
+    }
+}

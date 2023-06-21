@@ -1,0 +1,52 @@
+@import "./variable.scss";
+
+.task {
+    &__list {
+        border-top: 2px solid $grey-color;
+        border-bottom: 2px solid $grey-color;
+    }
+    &__item {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:last-child {
+            margin-bottom: 45px;
+        }
+    }
+    &__circle {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 3px solid $white-color;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    &__completed {
+        display: none;
+        &.active {
+            display: block;
+            color: $green-color;
+            font-size: 15px;
+            margin: 2px auto;
+        }
+    }
+    &__text {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.125em;
+        color: $white-color;
+        margin-left: 25px;
+        margin-right: auto;
+        &.completed {
+            text-decoration: line-through;
+            color: $grey-color;
+        }
+    }
+    &__delete {
+        margin-right: 20px;
+        color: $grey-color;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
